@@ -1,5 +1,9 @@
 body {
     background: rgb(236, 236, 236);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDYZ_V5I_h45Wb148zbAVibmWq_8OgYkMe1n9_v2Caml8rWemC&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,12 +13,16 @@ section {
 
 .header {
 background: rgb(85, 174, 233);
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQBgQbrpnrpsY3BNvwOoQ91KTXGBcDsOFvFdaAmgQpD7gUnpF7&usqp=CAU);
 height: 20px;
 padding: 15px;
 line-height: 1.4;
 margin-bottom: 10px;
 font-weight: 600;
 color: white;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .footer {
@@ -87,7 +95,7 @@ textarea {
     margin-top: 50px;
     font-size: 2em;
     font-weight: bold;
-    color: darkslategray;
+    color: rgb(6, 22, 22);
 }
 
 .profile-header-object-image{
@@ -101,6 +109,10 @@ textarea {
     background-size: cover;
     border: 1px solid black;
     border-radius: 4px;
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJ-4ZB_QGDaddEhdmJWZ0Tu_HJfmNDuAT7MPs7vdQ_ogvygHBs&usqp=CAU);
 }
 
 .feed {
@@ -115,7 +127,7 @@ textarea {
 }
 
 .feed p {
-    border-bottom: 1px black solid;
+    border-bottom: 1px rgb(11, 143, 33) solid;
     padding: 20px;
 }
 
@@ -125,7 +137,8 @@ span {
 
 #number-of-posts{
     font-size: 0.8em;
-    color: #55aee9;
+    color: #000661;
+    
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

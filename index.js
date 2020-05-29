@@ -58,8 +58,8 @@ document.addEventListener("DOMContentLoaded", async function (event) {
         // Set some profile settings for the demo
         let profilePost = {
             "id": idOfProfile,
-            "displayName": "Mason Link",
-            "avatarUrl": 'https://blockmason.link/wp-content/uploads/2019/04/download.jpg'
+            "displayName": "Revil",
+            "avatarUrl": 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJ-4ZB_QGDaddEhdmJWZ0Tu_HJfmNDuAT7MPs7vdQ_ogvygHBs&usqp=CAU'
         }
 
         await project.post('/setProfile', profilePost);
