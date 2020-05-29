@@ -36,7 +36,7 @@ You will need to setup the following for this activity:
 
 > Install `Node` and `npm`: https://nodejs.org/en/download/ (note - you can also use `yarn`)
 
-> Clone the Github repo: https://github.com/blockmason/Revil-app-demo into a new folder.
+> Clone the Github repo: https://github.com/DickensJuma/Revil-Network into a new folder.
 
 > In the new folder, run `npm install` which will install the following key dependencies:
 
