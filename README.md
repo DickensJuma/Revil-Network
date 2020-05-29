@@ -1,8 +1,24 @@
-# Blockchain Powered Social Network
+## Revil Network (powered by Blockchain)
 
-Blockmason is excited to launch our second blockchain product called [Link](https://mason.link). Link allows developers to use smart contracts and the power of blockchain in their web or mobile applications with *very little to no prior blockchain experience.* Link creates classic, conventional, web-based APIs for any smart contract written on a programmable blockchain (e.g. Ethereum). 
+# Share Infection experiences
+online platform which community members can use to capture their health-based experiences and share these health experiences with other community members through text, photos or videos.(photo and video- on next release)
 
-In this activity, we will use Link to record and retrieve messages (in this example, for a social network like app) on the blockchain. 
+The focus should be to develop a platform that allows community member to share their health experiences and and find more information about an illness(alarming or mild)  with other community members.
+
+
+## Raise illness alert in real-time
+Develop a referral process platform that helps community members to raise and escalate major illness signs, awareness and symptoms  in the community in real-time.
+
+The platform would work like a community health management tool that will help expert health community worker to share real-­time information on their community members.
+
+The system should record all assessments made by the community health experts for future reference and annual evaluations.
+
+
+## Goal
+The goal is to unite in the fight against COVID-19. Together we can develop and launch open-source code using AI and/or blockchain to combat COVID-19, reduce risks from future infectious outbreaks, and cope with the COVID-19 pandemic situation.
+
+
+## Installation
 
 With Link and its built-in private blockchain, there is no need to use common blockchain development tools such as Infura or acquire an underlying token such as ETH from an exchange to pay for gas fees - it just works!
 
@@ -10,9 +26,9 @@ A simple front-end template is provided and [Parcel](https://parceljs.org/) will
 
 The key steps of this activity are:
 1. Setup project and install dependencies
-2. Deploy a basic Social Network smart contract to the blockchain using Link
+2. Deploy a basic evil Network smart contract to the blockchain using Link
 3. Configure a front-end JavaScript file
-4. Run your decentralized Social Network application
+4. Run your decentralized evil Network application
 
 ### Setup
 
@@ -20,7 +36,7 @@ You will need to setup the following for this activity:
 
 > Install `Node` and `npm`: https://nodejs.org/en/download/ (note - you can also use `yarn`)
 
-> Clone the Github repo: https://github.com/blockmason/social-network-demo into a new folder.
+> Clone the Github repo: https://github.com/blockmason/Revil-app-demo into a new folder.
 
 > In the new folder, run `npm install` which will install the following key dependencies:
 
@@ -32,12 +48,12 @@ You will need to setup the following for this activity:
 
 > Create a Blockmason Link account - register at https://mason.link/sign-up and then setup your demo organization.
 
-### Deploy the Social Network Smart Contract
-The `Social-Network.sol` file contains a very simple Smart Contract:
+### Deploy the evil Network Smart Contract
+The `Revil-app.sol` file contains a very simple Smart Contract:
 ```
 pragma solidity ^0.5.8;
 
-contract SocialNetwork {
+contract evilNetwork {
   struct Profile {
     uint256 id;
     string displayName;
@@ -67,15 +83,11 @@ contract SocialNetwork {
 }
 ```
 
-> Sign into your Link account and copy and paste the `Social-Network.sol` contract code into the Link IDE. We'll call this project `Social-Network`. 
+> Sign into your Link account and copy and paste the `Revil-app.sol` contract code into the Link IDE. We'll call this project `Revil-app`. 
 
-![Social Network Link IDE](images/ownership_link_ide.png)
+> Now click on the `API` button on the `Code/API` toggle and you will see API endpoints for all the evil Network smart contract functions and attributes!
 
-> Now click on the `API` button on the `Code/API` toggle and you will see API endpoints for all the Social Network smart contract functions and attributes!
-
-![Social Network Link API](images/ownership_link_api.png)
-
-**That's it!** Our Social Network smart contract is automatically deployed to the Link private blockchain and we are ready to use our web API endpoints in our front-end DApp. 
+**That's it!** Our evil Network smart contract is automatically deployed to the Link private blockchain and we are ready to use our web API endpoints in our front-end DApp. 
 
 ### Configure DApp Front-End
 
@@ -104,7 +116,6 @@ We import the `@blockmason/link-sdk` package. We then need to provide the `clien
 
 > In the .env file add ```CLIENT_ID="<YOUR-CLIENT_ID>" CLIENT_SECRET="<YOUR-CLIENT-SECRET>"```
 
-![Link creds](https://github.com/blockmason/simple-ownership-contract-demo/raw/master/images/link_creds.png)
 
 ```
     // Get All Messages
@@ -152,7 +163,7 @@ Here, we will call the `GET /getProfile` API endpoint to retrieve the profile da
 
 > Find the complete code in `index.js`. 
 
-Note - we didn't use any complex or large libraries like `web3.js`, which requires an instance of the `SocialNetwork` contract to be created before the contract function methods can be called. **Except for our confirm message, there is nothing in the code to even indicate that blockchains are involved!**
+Note - we didn't use any complex or large libraries like `web3.js`, which requires an instance of the `evilNetwork` contract to be created before the contract function methods can be called. **Except for our confirm message, there is nothing in the code to even indicate that blockchains are involved!**
 
 ### Run your DApp
 
@@ -174,18 +185,19 @@ Copy and paste in an Ethereum wallet address (for example `0xca14563Ce2585B6026b
 
 When running, your DApp should look similar to the following:
 
-![Social Network](images/bc_social_network.png)
+![evil Network](/images/revil.png)
 
 **Congrats** on getting your first DApp running from scratch using Link!
 
----
+## Acknowledgements
 
-Throughout this example, we touched on Link concepts including deploying a smart contract, using the Link IDE, using Link API endpoints, and more.
+- [Manson Link](https://mason.link)
 
-To learn more about Blockmason Link, check out the official Link website at [blockmason.link](blockmason.link) or our weekly blog posts at [blockmason.link/blog](blockmason.link/blog).
 
-## You can also connect with the Blockmason Link Team on these social channels:
+## Copyright 2020 Dickens Juma
 
--    Twitter: [https://twitter.com/BlockmasonLink](https://twitter.com/BlockmasonLink)
--    Telegram: [https://t.me/blockmasonlink](https://t.me/blockmasonlink)
--    Reddit: [https://www.reddit.com/r/blockmason/](https://www.reddit.com/r/blockmason/)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
