@@ -18,6 +18,11 @@ The system should record all assessments made by the community health experts fo
 The goal is to unite in the fight against COVID-19. Together we can develop and launch open-source code using AI and/or blockchain to combat COVID-19, reduce risks from future infectious outbreaks, and cope with the COVID-19 pandemic situation.
 
 
+We are in the process of creating the frontend ui for the platform. To check the frontend being developed clone the feature branch
+
+![Revil Network](/images/newlook.png)
+
+
 ## Installation
 
 With Link and its built-in private blockchain, there is no need to use common blockchain development tools such as Infura or acquire an underlying token such as ETH from an exchange to pay for gas fees - it just works!
@@ -36,7 +41,10 @@ You will need to setup the following for this activity:
 
 > Install `Node` and `npm`: https://nodejs.org/en/download/ (note - you can also use `yarn`)
 
-> Clone the Github repo: https://github.com/DickensJuma/Revil-Network into a new folder.
+> Clone the Github repo: https://github.com/DickensJuma/Revil-Network.git into a new folder.
+
+* For the platform intergrated with the new Frontend 
+>Clone the Github repo: https://github.com/DickensJuma/Revil-Network.git into a new folder.
 
 > In the new folder, run `npm install` which will install the following key dependencies:
 
@@ -183,11 +191,10 @@ Note the following:
 Copy and paste in an Ethereum wallet address (for example `0xca14563Ce2585B6026b7691f264ac2173CdEC530`) and try to own one of the Collectible Stamps. *Note:* if you do not enter in a valid address, you will see the following error alert pop up:
 
 
-When running, your DApp should look similar to the following:
+When running, the platform should look similar to the following:
 
-![evil Network](/images/revil.png)
+![Revil Network](/images/revil.png)
 
-**Congrats** on getting your first DApp running from scratch using Link!
 
 ## Acknowledgements
 
