@@ -187,6 +187,10 @@ When running, your DApp should look similar to the following:
 
 ![evil Network](/images/revil.png)
 
+Working on our new look
+
+[UI/UX](/images/nwelook.png)
+
 **Congrats** on getting your first DApp running from scratch using Link!
 
 ## Acknowledgements

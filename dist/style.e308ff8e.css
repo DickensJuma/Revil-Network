@@ -1,144 +1,32 @@
 body {
-    background: rgb(236, 236, 236);
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDYZ_V5I_h45Wb148zbAVibmWq_8OgYkMe1n9_v2Caml8rWemC&usqp=CAU);
+    background: rgb(125, 219, 146);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
-
+.h7 {
+    font-size: 0.8rem;
 }
 
-.header {
-background: rgb(85, 174, 233);
-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQBgQbrpnrpsY3BNvwOoQ91KTXGBcDsOFvFdaAmgQpD7gUnpF7&usqp=CAU);
-height: 20px;
-padding: 15px;
-line-height: 1.4;
-margin-bottom: 10px;
-font-weight: 600;
-color: white;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.gedf-wrapper {
+    margin-top: 0.97rem;
 }
 
-.footer {
-    background: black;
-    color: white;
-    padding: 40px;
-    font-weight: 900;
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
 }
 
-
-.message-area {
-    margin-left: auto;
-    margin-right: auto;
-    background: whitesmoke;
-    padding: 20px;
-    clear: both;
-    height: 70px;
-    width: 800px;
-    position: relative;
-}
-
-textarea {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    width: 555px;
-    resize: none;
-    padding: 20px;
-}
-
-.send-message-btn{
-    background: rgb(85, 174, 233);
-    text-align: center;
-    line-height: 70px;
-    color: white;
-    cursor: pointer;
-    border: 1px solid rgb(85, 174, 233);
-    transition: 0.3s;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    bottom: 20px;
-    left: 620px;
-    border-radius: 10px;
-}
-
-.send-message-btn:hover {
-    border: 1px solid rgb(85, 174, 233);
-    background: none;
-    color: rgb(95, 170, 204);
-    transition: 0.3s;
-}
-
-.profile-header {
-    height: 165px;
-    margin-bottom: 10px;
-    background: white;
-    width: 840px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-}
-
-.profile-header-object {
-    background: white;
-    float: left;
-    margin: 5px;
-    padding: 20px;
-    margin-top: 50px;
-    font-size: 2em;
-    font-weight: bold;
-    color: rgb(6, 22, 22);
-}
-
-.profile-header-object-image{
-    padding: 0px;
-    float: left;
-    margin-top: 22px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 120px;
-    height: 120px;
-    background-size: cover;
-    border: 1px solid black;
-    border-radius: 4px;
-    background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJ-4ZB_QGDaddEhdmJWZ0Tu_HJfmNDuAT7MPs7vdQ_ogvygHBs&usqp=CAU);
-}
-
-.feed {
-    background: white;
-    margin-top: 10px;
-    min-height: 800px;
-    margin-bottom: 50px;
-    clear: both;
-    width: 840px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.feed p {
-    border-bottom: 1px rgb(11, 143, 33) solid;
-    padding: 20px;
-}
-
-span {
-    color: darkgrey;
-}
-
-#number-of-posts{
-    font-size: 0.8em;
-    color: #000661;
-    
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+    content: none;
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

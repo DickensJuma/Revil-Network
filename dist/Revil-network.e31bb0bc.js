@@ -8153,7 +8153,7 @@ var _require = require('@blockmason/link-sdk'),
 var fetch = require('node-fetch');
 
 var project = link({
-  clientId: "d5KsamAN13js-IzOmQAhseNhLL9Mleo8458uyI13I_A",
+  clientId: "d5KsamAN13js-IzOmQAhseNhLL9Mleo8458uyI13I_A\"",
   clientSecret: "o6FHzB1XKsRf/nHk12XaDQQ7DBowBlFcCsKX2RbPhCVcKs6F8BGBPKhAYkx2FVJ"
 }, {
   fetch: fetch
@@ -8457,7 +8457,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36813" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33647" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
